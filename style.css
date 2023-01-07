@@ -1,0 +1,357 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.directory-section {
+    background-color: rgba(24, 23, 23, 0.896);
+    text-align: right;
+    width: 100%;
+    padding: 10px;
+}
+.directory li {
+    list-style: none;
+    display: inline;
+    padding: 16px;
+    color: white;
+    margin-right: 20px;
+}
+.directory a {
+    text-decoration: none;
+    display: inline;
+    color: white;
+    font-family: calibri;
+    font-size: 15px;
+}
+.logo-section {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    font-family: calibri;
+    margin-top: 20px;
+}
+.name {
+    display: flexbox;
+    text-align: center;
+    font-size: 1.7vw;
+    font-weight: bolder;
+}
+.break {
+    text-align: center;
+    font-size: 1vw;
+}
+.nav ul {
+    
+}
+nav ul li {
+    display: inline;
+    list-style: none;
+    padding: 0px 30px 0px 0px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.749);
+    font-family: calibri;
+    font-weight: bolder;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.active{
+    text-decoration: underline 1px green;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 20px;
+}
+.slide-container {
+    width: 10%;
+    margin-top: 1.5px;
+}
+.slide-container2 {
+    display: none;
+}
+.wrapper {
+    -webkit-animation-name: slide_animation ;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+.box {
+    height: 20px;
+    width: 1622%;
+    overflow: auto;
+    float: left;
+    position: relative;
+    overflow-y: hidden;
+    -webkit-animation-name: slide_animation ;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction:normal;
+    -webkit-animation-play-state:running;
+}
+.box2 {
+    float: ;
+    margin-top: 0px;
+
+}
+@-webkit-keyframes slide_animation{
+    0% {fade:1200px;}
+    10% {fade:1200px;}
+    20% {fade:100px;}
+    30% {fade-in:0px;}
+    40% {fade-in:0px;}
+    50% {fade-in:0px;}
+    60% {fade:0px;}
+    70% {fade-in:0px;}
+    80% {fade-in:0px;}
+    90% {fade-in:0px;}
+    100% {fade-in:0px;}
+
+}
+.img1 {
+    position: absolute;
+    z-index: 2;
+    transition: .2s ease-in;
+    transform-origin: 50%, 50%;
+    background-image: linear-gradient(green);
+    background-size: cover;
+    color: green;
+    overflow: hidden;
+    display: none;
+}
+.img2 {
+    filter:blur(0px);
+    transform: scale(1);
+    opacity: 1;
+    transition: .5s ease-in;
+    overflow-y: hidden;
+    display: ;
+}
+.active:hover {
+    color: white;
+}
+.box:hover .img2 {
+    filter: blur(20px);
+    transform: scale(1);
+    opacity: 0;
+}
+
+.box:hover .img2 {
+    filter: blur(0px);
+    transform: scale(1);
+    opacity: 1;
+}
+.display-text:hover .img1, .img {
+    filter: blur(0px);
+    transform: scale(1);
+    opacity: 0;
+}
+.press {
+    display: flex;
+    justify-content: space-around;
+}
+.pres {
+    display: flex;
+    justify-content: space-around;
+}
+.pre {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.display-text {
+    justify-content: space-around;
+    position: absolute;
+    z-index: 2;
+    transition: .5s ease-in-out;
+    transform-origin: 50%, 50%;
+    width: 50%;
+    height: 400px;
+    margin-top: -600px;
+    color: white;
+    font-family: franklin gothic medium;
+    font-weight: bolder;
+}
+.box:hover .display-text {
+    filter: blur(20px);
+    transform: scale(1);
+    opacity: 0;
+}
+.text2 {
+    font-size: 3vw;
+    width:70%;
+    padding-bottom: 30px;
+}
+.text1 {
+    padding-bottom: 30px;
+    font-size: 1vw;
+    width: 40%;
+}
+.clickable {
+    padding: 15px;
+    color: white;
+    border: solid 2px white;
+    background-color: transparent;
+}
+.hero-section {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: calibri;
+    padding-top: 60px;
+}
+.hero1 {
+    color: green;
+    font-size: 2.5vw;
+    padding-bottom: 10px;
+}
+.hero-text {
+    width: 60%;
+}
+.herop{
+    text-align: justify;
+    font-size: 17px;
+
+}
+.read{
+    text-decoration: none;
+    color: green;
+}
+.prof {
+    color: green;
+    font-weight: bolder;
+}
+.hero-video {
+    font-family: calibri;
+    margin-top: 80px;
+    color: green;
+}
+.video:hover .play {
+    filter: blur(20px);
+    transform: scale(1);
+    opacity: 0;
+}
+.cols {
+    margin-left: 150%;
+    color: white;
+    filter: drop-shadow(1px 1px 20px rgb(243, 201, 201));
+}
+.play {
+    margin-top: -20%;
+    font-size: 9vw;
+}
+.bull {
+    display: flex;
+}
+.hover-video {
+    margin-top: -300px;
+    color: white;
+    width: 100%;
+}
+.butt {
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+    border: white solid 1px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 1vw;
+}
+.hero-section2 {
+    font-family: calibri;
+    color: green;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px ;
+}
+.vid1{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    flex-direction:;
+}
+.vid2 {
+    display: flex;
+    justify-content: space-around;
+    width: 130%;
+}
+.vid3 {
+    display: flex;
+    justify-content: space-around;
+    width: 135%;
+}
+.vidbut {
+    display: flex;
+    justify-content: space-around;
+    width: 110%;
+}
+.vid2, .vid3{
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 767px){ 
+    body {
+        margin: 0;
+    }
+    .directory-section {
+        width: 100%;
+        font-size: ;
+    }
+    .slide-container {
+        display: none;
+    }
+    .slide-container2 {
+        display: block;
+        width: 100%;
+    }
+    .logo-section {
+        display: flex;
+        justify-content:left;
+        font-size: 10px;
+        font-family: calibri;
+        margin-top: 20px;
+    }
+    .display-text {
+        position: absolute;
+        z-index: 2;
+        transition: .5s ease-in-out;
+        transform-origin: 50%, 50%;
+        width: 100%;
+        height: 400px;
+        margin-top: -200px;
+        color: white;
+        font-family: franklin gothic medium;
+        padding-left: 30px;
+        font-weight: bolder;
+    }
+}
+@media screen and (max-width: 425px){ 
+    body {
+        margin: 0;
+    }
+    .directory-section {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 375px){ 
+    body {
+        margin: 0;
+    }
+    .directory-section {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 320px){ 
+    body {
+        margin: 0;
+    }
+    .directory-section {
+        width: 100%;
+    }
+}
