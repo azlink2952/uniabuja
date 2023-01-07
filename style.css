@@ -232,21 +232,15 @@ nav {
     opacity: 0;
 }
 .cols {
-    margin-left: 150%;
+    margin-left: %;
     color: white;
     filter: drop-shadow(1px 1px 20px rgb(243, 201, 201));
 }
 .play {
-    margin-top: -20%;
-    font-size: 9vw;
-}
-.bull {
     display: flex;
-}
-.hover-video {
-    margin-top: -300px;
-    color: white;
-    width: 100%;
+    justify-content: space-around;
+    width: 90%;
+    font-size: 9vw;
 }
 .butt {
     padding: 20px;
@@ -257,38 +251,27 @@ nav {
     font-weight: bolder;
     font-size: 1vw;
 }
+.bull {
+    margin-top: -250px;
+    display: flex;
+    justify-content: center;
+    flex-wrap:nowrap;
+}
+.hover-video {
+    align-self: center;
+    display:grid;
+    justify-content: space-between;
+    margin-top: px;
+    color: white;
+    width: 100%;
+}
 .hero-section2 {
     font-family: calibri;
-    color: green;
+    color: white;
     display: flex;
     justify-content: center;
     margin-top: 90px ;
 }
-.vid1{
-    display: flex;
-    width: 100%;
-    justify-content:space-around;
-    flex-direction:;
-}
-.vid2 {
-    display: flex;
-    justify-content: space-around;
-    width: 130%;
-}
-.vid3 {
-    display: flex;
-    justify-content: space-around;
-    width: 135%;
-}
-.vidbut {
-    display: flex;
-    justify-content: space-around;
-    width: 110%;
-}
-.vid2, .vid3{
-    padding-bottom: 40px;
-}
-
 
 
 
