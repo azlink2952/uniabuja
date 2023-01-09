@@ -93,7 +93,7 @@ nav {
 .box2 {
     float: ;
     margin-top: 0px;
-
+    
 }
 @-webkit-keyframes slide_animation{
     0% {fade:1200px;}
@@ -107,7 +107,7 @@ nav {
     80% {fade-in:0px;}
     90% {fade-in:0px;}
     100% {fade-in:0px;}
-
+    
 }
 .img1 {
     position: absolute;
@@ -168,7 +168,7 @@ nav {
     transform-origin: 50%, 50%;
     width: 60%;
     height: 400px;
-    margin-top: -600px;
+    margin-top: -470px;
     color: white;
     font-family: franklin gothic medium;
     font-weight: bolder;
@@ -211,7 +211,7 @@ nav {
 .herop{
     text-align: justify;
     font-size: 17px;
-
+    
 }
 .read{
     text-decoration: none;
@@ -242,6 +242,9 @@ nav {
     width: 90%;
     font-size: 9vw;
 }
+.video {
+    height: 50%;
+}
 .butt {
     padding: 20px;
     background-color: transparent;
@@ -252,7 +255,7 @@ nav {
     font-size: 1vw;
 }
 .bull {
-    margin-top: -250px;
+    margin-top: -350px;
     display: flex;
 }
 .hover-video {
@@ -260,15 +263,198 @@ nav {
     color: white;
     width: 100%;
 }
-.hero-section2 {
+.section2 {
     font-family: calibri;
     color: green;
     display: flex;
     justify-content: center;
-    margin-top: 90px ;
+    margin-top: 180px ;
+}
+.vid2, .vid3, .vidbut {
+    padding-bottom: 30px;
+}
+.bott {
+    display: flex;
+    padding-top: 60px;
+    color: green;
+}
+.dot {
+    padding: 0px 60px 0px 60px ;
+    border-radius: 10px; 
+    background-color: rgba(200, 243, 228, 0.843);
+    border: solid 1px white;
+    font-size: 1vw;
+    color: rgb(7, 186, 7)
+}
+.drot {
+    display: grid;
+    justify-content: space-around;
+    width: 25%;
+}
+.dot1 {
+    padding: 20px 20px 20px 50px;
+    border-radius: 10px;
+    border: solid 3px green;
+    color: green;
+    background-color: transparent;
+    display: flex;
+}
+.hero-section3 {
+    font-family: calibri;
+    margin-top: 150px;
+    background-color: rgba(127, 255, 212, 0.394);
+    padding: 50px 50px 0px 50px;
+}
+.bott2 {
+    display: flex;
+    justify-content: right;
+    width: 90%;
+}
+.special-class {
+    display: flex;
+}
+.hh11 {
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-weight: bolder;
+    font-size: 1.4vw;
+    padding-bottom: 100px;
+}
+.roll {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    text-align: right;
+}
+.special2 {
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+}
+.special3 {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    width: 50%;
+}
+.span2 {
+    font-size: 1vw;
+    font-weight: lighter;
+}
+.line {
+    display: flex;
+    justify-content:center;
+    margin-top: 80px;
+}
+.shadow {
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+    font-size: 4vw;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.155);
+    margin-top: 90px;
+}
+.shadow:hover .hero-section4 {
+    filter: blur(20px);
+    transform: scale(1);
+    opacity: 0;
+}
+.hero-section4 {
+    display: flex;
+    font-family: calibri;
+    margin-top: -60px;
+    align-items: center;
+    justify-content: center;
+    width: 140%;
+}
+.fron {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    font-size: 2vw;
+    color: rgba(0, 0, 0, 0.348);
+}
+.race {
+    display: flex;
+    justify-items: center;
+    color: green;
+}
+.column1 {
+    display: flex;
+    
+    align-items: center;
 }
 
+.hero-section5 {
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+    font-family: calibri;
+    color: white;
+    padding: 70px;
+    margin-top: 30px;
+}
+.hhhh1 {
+    font-size: 1.2vw;
+    text-align: center;
+}
+.unity {
+    font-size: 12px;
+    text-align: ;
+}
+    .airport { 
+    display: flex;
+    align-content: space-around;
+}
+.cccc {
+    display: flex;
 
+}
+.ma {
+}
+.deem {
+    display: flex;
+    justify-content: space-around;
+    width: 73%;
+}
+.som {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+.sm {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+.hov {
+    color: green;
+    border: solid 2px white;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+}
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: lighter;
+    font-size: 1vw;
+}
+.hero-section6 {
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+    color: white;
+    font-size: 1.3vw;
+    width: 100%;
+}
+.social {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
 
 
 
