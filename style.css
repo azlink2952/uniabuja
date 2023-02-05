@@ -39,6 +39,59 @@
     text-align: center;
     font-size: 1vw;
 }
+nav ul {
+    float: left;
+    margin: 0px;
+    margin-left: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 20px;
+    margin: 0 5px;
+    width: 120px;
+    text-align: center;
+    position: relative;
+}
+nav ul li a {
+    color: #737373;
+    font-size: 17px;
+    padding: 10px 20px 0px 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+a.active a:hover {
+    background: #0d2047;
+    transition: .5s;
+}
+nav ul li:hover {
+    background-color:;
+    border-radius: 3px;
+}
+a:hover{
+    color: black;
+}
+section{
+    height: calc(100vh - 60px);
+}
+.checkbtn{
+    font-size: 50px;
+    color: black;
+    line-height: 0px;
+    margin-left: 300px;
+    cursor: pointer;
+}
+.cancelbar{
+    font-size: 50px;
+    color: black;
+    float: ;
+    line-height: 0px;
+    margin-right: px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
 .nav ul {
     
 }
@@ -92,6 +145,7 @@ nav {
 }
 .box2 {
     float: ;
+    width: 100%;
     margin-top: 0px;
     
 }
@@ -239,7 +293,7 @@ nav {
 .play {
     display: flex;
     justify-content: space-around;
-    width: 90%;
+    width: 100%;
     font-size: 9vw;
 }
 .video {
@@ -500,8 +554,46 @@ nav {
         padding-left: 30px;
         font-weight: bolder;
     }
-    .menu-section {
-        display: none;
+    .checkbtn {
+        display: block;
+    }
+    .checkbtn{
+        display: block;
+        width: 0%;
+        margin-top: -20%;
+    }
+    .cancelbar{
+        display: block;
+        margin-right: 0%;
+        margin-top: %;
+    }
+    nav ul{
+        position: fixed;
+        width: 150%;
+        height:100vh;
+        background: white;
+        top: 0px;
+        right: -100%;
+        text-align: start;
+        transition: all .5s;
+        
+    }
+    nav ul li{
+        display: block;
+        margin: 70px 0;
+        line-height: 30px;
+        text-align: left;
+        margin-left: 40px;
+    }
+    nav ul li a{
+        font-size: 15px;
+        padding: 10px 10px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    #check:checked ~ ul{
+        right: 0;
+        transition: 
     }
 }
 @media screen and (max-width: 425px){ 
